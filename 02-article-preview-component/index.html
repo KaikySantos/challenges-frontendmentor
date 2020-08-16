@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+
+  <div id="article">
+    <div id="bg-img">
+      <img src="images/drawers.jpg" alt="">
+    </div>
+    <div id="content">
+      <h1>
+        Shift the overall look and feel by adding these wonderful touches to furniture in your home
+      </h1>
+      <p id="subtitle">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      </p>
+      <div id="profile">
+        <div id="profile-image">
+          <img src="images/avatar-michelle.jpg" alt="">
+        </div>
+        <div id="profile-content">
+          <div id="profile-name">
+            Michelle Appleton
+          </div>
+          <div id="date">
+            28 Jun 2020
+          </div>
+        </div>
+        <button onclick="share()" id="share-button">
+          <img src="images/icon-share.svg">
+        </button>
+        <div id="tooltip">
+          <div>
+            SHARE
+          </div>
+          <div id="rede-social">
+            <img src="images/icon-facebook.svg" alt="">
+            <img src="images/icon-twitter.svg" alt="">
+            <img src="images/icon-pinterest.svg" alt="">
+          </div>
+          <div id="arrow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function share() {
+      var tooltip = document.getElementById('tooltip');
+      var status = tooltip.style.opacity;
+      if(tooltip.style.opacity == 0) {
+        tooltip.style.opacity=1;
+      }else{
+        tooltip.style.opacity=0;
+      }
+    }
+  </script>
+
+</body>
+</html>

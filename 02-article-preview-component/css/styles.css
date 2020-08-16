@@ -1,0 +1,181 @@
+:root{
+    --very-dark-gravish-blue: #48556a;
+    --desaturated-dark: #6d7f97;
+    --grayish-blue: #9eafc2;
+    --light-grayish: #ecf2f8;
+    --background-article: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--light-grayish);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#article{
+    background-color: var(--background-article);
+    width: 610px;
+    height: 225px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 35px rgb(199, 199, 199);
+    display: flex;
+    margin: 0px 60px;
+}
+#bg-img{
+    position: relative;
+    height: 225px;
+    width: 37%;
+}  
+#bg-img img{
+    height: 100%;
+    position: absolute;
+    clip: rect(0px, 220px, 250px, 0px);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#content{
+    height: 225px;
+    width: 64%;
+    z-index: 1;
+    padding: 23px 28px 20px 50px;
+}
+#content h1{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--very-dark-gravish-blue);
+}
+#content #subtitle{
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    color: var(--desaturated-dark);
+}
+#content #profile{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#content #profile #profile-image img{
+    width: 35px;
+    border-radius: 30px;
+}
+#content #profile #profile-content{
+    margin-left: 14px;
+    font-family: 'Manrope';
+}
+#content #profile #profile-content #profile-name{
+    font-size: 12px;
+    color: var(--very-dark-gravish-blue);
+    font-weight: 700;
+}
+#content #profile #profile-content #date{
+    font-size: 10px;
+    margin-top: 2px;
+    color: var(--grayish-blue);
+}
+#content #profile #share-button{
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    background-color: var(--light-grayish);
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+}
+#content #tooltip{
+    background-color: var(--very-dark-gravish-blue);
+    position: absolute;
+    top: -67px;
+    left: 215px;
+    padding: 12px 22px;
+    font-family: 'Manrope';
+    letter-spacing: 2px;
+    border-radius: 10px;
+    width: 160px;
+    color: var(--grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+#content #tooltip #rede-social{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#content #tooltip #rede-social img{
+    margin-right: 5px;
+}
+
+#content #tooltip #arrow{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--very-dark-gravish-blue);
+    position: absolute;
+    top: 45px;
+}
+
+@media (max-width: 700px) {
+    #article{
+        flex-direction: column;
+        width: 320px;
+        height: 450px;
+    }
+    #content{
+        width: 270px;
+        padding: 25px 25px 10px 25px;
+        z-index: 2;
+    }
+    #content h1{
+        font-size: 16px;
+        margin-top: 17px;
+    }
+    #content #profile #share-button{
+        top: 0px;
+        left: 245px;
+        z-index: 10;
+    }
+    #content #subtitle{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    #bg-img {
+        width: 100%;
+    }
+    #bg-img img{
+        width: 100%;
+        height: 170%;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0px;
+        clip: rect(0px, 500px, 200px, 0px);
+        z-index: 1;
+    }
+    #content #profile{
+        margin-top: 25px;
+    }
+    #content #tooltip{
+        top: -10px;
+        left: -25px;
+        width: 276px;
+        height: 30px;
+        z-index: 9;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        justify-content: flex-start;
+    }
+    #content #tooltip #arrow{
+        opacity: 0;
+    }
+    #content #tooltip #rede-social img{
+        margin-left: 10px;
+    }
+}
