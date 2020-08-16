@@ -1,0 +1,145 @@
+:root{
+    --color-cyan: #2ab2af;
+    --color-bright-yellow: #c0df34;
+    --color-light-gray: #e5eff5;
+    --color-grayish-blue: #98a6bd;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light-gray);
+    font-family: 'Karla';
+}
+
+#container{
+    width: 740px;
+    height: 78vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(226, 226, 226);
+}
+
+#cima{
+    width: 100%;
+    height: 44%;
+    padding: 40px 50px;
+}
+#cima h1{
+    color: var(--color-cyan);
+    font-size: 28px;
+}
+#cima #text-green{
+    margin-top: 20px;
+    color: var(--color-bright-yellow);
+    font-size: 22px;
+}
+#cima #text-normal{
+    margin-top: 20px;
+    color: var(--color-grayish-blue);
+    font-size: 19px;
+}
+
+#baixo{
+    width: 100%;
+    height: 56%;
+    display: flex;
+    flex-direction: row;
+}
+#baixo .title-baixo{
+    color: white;
+    font-size: 20px;
+}
+
+#baixo #esquerda{
+    padding: 40px 50px;
+    background: var(--color-cyan);
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 12px;
+}
+#baixo #esquerda #price-content{
+    margin-top: 18px;
+    color: var(--color-light-gray);
+    display: flex;
+    align-items: center;
+}
+#baixo #esquerda #price-content #price{
+    font-size: 43px;
+    margin-right: 10px;
+}
+#baixo #esquerda #description{
+    margin-top: 10px;
+    color: white;
+}
+#baixo #esquerda #button-container{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#baixo #esquerda #button-container #sing-up-button{
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    background-color: var(--color-bright-yellow);
+    border-radius: 5px;
+    font-family: 'Karla';
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.13);
+}
+
+#baixo #direita{
+    padding: 40px 50px;
+    background: turquoise;
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 12px;
+}
+#baixo #direita #informations{
+    margin-top: 20px;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    body{
+        align-items: flex-start;
+    }
+    #container{
+        width: 350px;
+        height: 600px;  
+    }
+    #cima h1{
+        font-size: 21px;
+    }
+    #cima #text-green{
+        font-size: 17px;
+    }
+    #cima #text-normal{
+        font-size: 15px;
+    }
+    #baixo{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    #baixo #esquerda{
+        width: 100%;
+        height: 270px;
+        border-bottom-left-radius: 0px;
+    }   
+    #baixo #direita{
+        width: 100%;
+        border-bottom-left-radius: 12px;
+    }
+}
