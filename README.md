@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="readme-img/logo.svg" width="300"/>
+   <img src="readme-img/logo.svg" width="500"/>
 </p>
 
 # Challenges of Frontendmentor.io solved
