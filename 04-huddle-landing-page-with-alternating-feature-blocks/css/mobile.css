@@ -1,0 +1,87 @@
+@media (max-width: 750px) {
+
+    header #menu{
+        padding: 0px; 
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    header #menu img{
+        width: 150px;
+    }
+    header #button-free button{
+        padding: 8px 30px;
+        font-size: 10px;
+    }
+    
+
+    header #menu-content{
+        flex-direction: column;
+        text-align: center;
+        padding: 150px 20px 0px 20px;
+    }
+    header #menu-content #text-content{
+        padding-right: 0px;
+    }
+    header #menu-content #text-content h1{
+        font-size: 7vw;
+    }
+    header #menu-content #text-content p{
+        font-size: 16px;
+    }
+    header #menu-content #image-menu img{
+        margin-top: 40px;
+    }
+    header #menu-content #text-content button{
+        margin-top: 40px;
+    }
+
+    article{
+        flex-direction: column;
+        text-align: center;
+    }
+    #article-one, #article-three{
+        flex-direction: column-reverse;
+    }
+    article .text-article{
+        padding: 80px 0px;
+    }
+
+
+
+    footer #footer-ready div{
+        width: 85vw;
+    }
+    footer #footer-ready div h1{
+        font-size: 5vw;
+    }
+    footer #footer-ready button{
+        font-size: 2vw;
+    }
+    footer #footer-content #footer-informations{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+    #div-footer-2{
+        margin-top: 60px;
+    }
+    #div-footer-3{
+        margin-top: 20px;
+    }
+    #div-footer-4{
+        margin-top: 50px;
+    }
+    footer #footer-content #footer-informations #div-footer-4 #redes-sociais{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer #footer-content #copyright{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
