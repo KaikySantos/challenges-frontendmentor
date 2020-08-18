@@ -35,3 +35,11 @@
 
 ### Mobile 
 <img src="readme-img/03-single-price-grid-component/single-price-grid-component-mobile.png" width="180px"/>
+
+## #04 - Huddle Landing Page With Alternating Feature Blocks (Newbie)
+
+### Web
+<img src="readme-img/04-huddle-landing-page-with-alternating-feature-blocks/huddle-landing-page-with-alternating-feature-blocks-web.jpg" width="700px"/>
+
+### Mobile 
+<img src="readme-img/04-huddle-landing-page-with-alternating-feature-blocks/huddle-landing-page-with-alternating-feature-blocks-mobile.jpg" width="180px"/>
