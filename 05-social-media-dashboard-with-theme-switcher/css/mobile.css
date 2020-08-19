@@ -1,0 +1,27 @@
+@media( max-width: 700px ) {
+    header.principal{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+        border-bottom: 1px solid rgb(90, 90, 90);
+        padding-bottom: 8px;
+    }
+    #right{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #section-top{
+        flex-direction: column;
+    }
+    .section-bottom{
+        flex-direction: column;
+    }
+}

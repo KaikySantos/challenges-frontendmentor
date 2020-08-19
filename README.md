@@ -43,3 +43,11 @@
 
 ### Mobile 
 <img src="readme-img/04-huddle-landing-page-with-alternating-feature-blocks/huddle-landing-page-with-alternating-feature-blocks-mobile.jpg" width="180px"/>
+
+## #05 - Social Media Dashboard With Theme Switcher (Newbie)
+
+### Web
+<img src="readme-img/05-social-media-dashboard-with-theme-switcher/social-media-dashboard-with-theme-switcher-web.jpg" width="700px"/>
+
+### Mobile 
+<img src="readme-img/05-social-media-dashboard-with-theme-switcher/social-media-dashboard-with-theme-switcher-mobile.jpg" width="180px"/>

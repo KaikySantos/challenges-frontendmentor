@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    padding: 20px 50px;
+}
+
+/* ******************** HEADER ******************** */
+
+header.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header.black{
+    background-color: black;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button-dark-mode{
+    margin-left: 5px;
+    width: 50px;
+    height: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#button-dark-mode #circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* ******************** FIM HEADER ******************** */
+/* ******************** SECTION TOP ******************** */
+
+#section-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card-big{
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: hsl(228, 100%, 95%);
+    border-radius: 10px;
+    position: relative;
+}
+.border-top-facebook{
+    position: absolute;
+    top: 0px;
+    margin-top: 0;
+    width: 100%;
+    height: 10px;
+    background-color: hsl(208, 92%, 53%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+}
+.border-top-twitter{
+    position: absolute;
+    top: 0px;
+    margin-top: 0;
+    width: 100%;
+    height: 10px;
+    background-color: hsl(203, 89%, 53%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+}
+.border-top-instagram{
+    position: absolute;
+    top: 0px;
+    margin-top: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+}
+.border-top-youtube{
+    position: absolute;
+    top: 0px;
+    margin-top: 0;
+    width: 100%;
+    height: 10px;
+    background-color: hsl(348, 97%, 39%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+}
+.card-big .rede-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+    margin: 10px 0px;
+}
+.card-big h1{
+    font-size: 50px;
+}
+.card-big h2{
+    font-size: 14px;
+    color: rgb(150, 149, 149);
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.status{
+    font-size: 11px;
+    margin-top: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.status img{
+    margin-right: 5px;
+}
+.up{
+    color: #1db489;
+}
+.down{
+    color: #dc414c;
+}
+
+/* ******************** FIM SECTION TOP ******************** */
+
+header.secundary{
+    margin-top: 20px;
+    color: #5a5a5a;
+}
+
+/* ******************** SECTION BOTTOM ******************** */
+
+.section-bottom{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.card-small{
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(228, 100%, 95%);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+.card-small-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-small-top h2{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+}
+.card-small-bottom{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-small-bottom p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.card-small-bottom .status{
+    margin-top: 0px;
+}
+
+
+
+/* DARK MODE */
+
+.section-top-black .card-big{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.section-top-black .card-big h1{
+    color: white;
+}
+.section-bottom1-black .card-small{
+    background-color: hsl(228, 28%, 20%);
+}
+.section-bottom1-black p{
+    color: white;
+}
+.section-bottom1-black h2{
+    color: rgb(211, 211, 211);
+}
+.section-bottom2-black .card-small{
+    background-color: hsl(228, 28%, 20%);
+}
+.section-bottom2-black p{
+    color: white;
+}
+.section-bottom2-black h2{
+    color: rgb(211, 211, 211);
+}
