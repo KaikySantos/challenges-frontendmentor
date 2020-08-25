@@ -51,3 +51,9 @@
 
 ### Mobile 
 <img src="readme-img/05-social-media-dashboard-with-theme-switcher/social-media-dashboard-with-theme-switcher-mobile.jpg" width="700px"/>
+
+## #06 - Pricing Component With Toggle (Junior)
+
+### Web
+<img src="readme-img/06-pricing-component-with-toggle/pricing-component-with-toggle-monthly-web.jpg" width="700px"/>
+<img src="readme-img/06-pricing-component-with-toggle/pricing-component-with-toggle-annually-web.jpg" width="700px"/>
