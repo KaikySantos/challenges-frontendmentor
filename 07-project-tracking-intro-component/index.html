@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+	<title>Frontend Mentor | Project tracking intro component</title>
+</head>
+
+<body>
+
+	<nav>
+		<div class="logo">
+			<img src="images/logo.svg" alt="">
+		</div>
+		<div class="navigation">
+			<div id="dropdown" class="items">
+				<div class="item">
+					PRODUCT
+				</div>
+				<div class="item">
+					FEATURES
+				</div>
+				<div class="item">
+					PRICING
+				</div>
+				<div class="item">
+					<div id="point"></div>
+				</div>
+				<div class="item">
+					LOGIN
+				</div>
+			</div>
+			<div onclick="openMenu()" id="menu-btn" class="menu-button">
+				<img src="images/icon-hamburger.svg" alt="">
+			</div>
+		</div>
+	</nav>
+
+	<div class="content">
+		<div class="texts">
+			<p><span>NEW</span> MONOGRAPH DASHBOARD</p>
+
+			<h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+			<p>Project planning and time tracking for agile teams</p>
+
+			<div>
+				<button>SCHEDULE A DEMO</button>
+				TO SEE A LIVE PREVIEW
+			</div>
+		</div>
+		<div class="image">
+			
+		</div>
+	</div>
+
+	<script>
+		function openMenu() {
+			var dropdown = document.getElementById('dropdown');
+			var btn = document.getElementById('menu-btn');
+			if(dropdown.style.top == "-2000px" || dropdown.style.top == ""){
+				dropdown.style.top = "320px";
+				btn.innerHTML = "<img src='images/icon-close.svg' alt=''>";
+			}else{
+				dropdown.style.top = "-2000px";
+				btn.innerHTML = "<img src='images/icon-hamburger.svg' alt=''>";
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -6,6 +6,15 @@
 
 <br>
 
+## #07 - Project Tracking Intro Component (Junior)
+
+### Web
+<img src="readme-img/07-project-tracking-intro-component/project-tracking-intro-component-web.jpg" width="700px"/>
+
+### Mobile 
+<img src="readme-img/07-project-tracking-intro-component/project-tracking-intro-component-mobile.jpg" width="300px"/>
+<img src="readme-img/07-project-tracking-intro-component/project-tracking-intro-component-mobile-navigation.jpg" width="300px"/>
+
 ## #06 - Pricing Component With Toggle (Junior)
 
 ### Web

@@ -1,0 +1,107 @@
+:root{
+    /* COLORS */
+    --color-login: hsl(231, 7%, 65%);
+    --color-p: hsl(231, 7%, 65%);
+    --color-button: hsl(0, 100%, 68%);
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Condensed';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    position: relative;
+}
+nav .navigation, nav .navigation div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .navigation .item{
+    margin-right: 35px;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav .navigation .item:hover{
+    text-decoration: underline;
+}
+nav .navigation .item #point{
+    background-color: var(--color-login);
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+}
+nav .navigation .item:last-child{
+    color: var(--color-login);
+    margin-right: 0px;
+}
+.menu-button{
+    opacity: 0;
+}
+
+
+
+.content{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content .texts{
+    width: 500px;
+}
+.content .texts p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-p);
+    margin: 24px 0px;
+}
+.content .texts p:first-child {
+    letter-spacing: 4px;
+}
+.content .texts p:not(:first-child){
+    font-size: 23px;
+    max-width: 290px;
+}
+.content .texts p span{
+    background-color: black;
+    color: white;
+    padding: 3px 8px 3px 12px;
+    border-radius: 40px;
+    margin-right: 5px;
+}
+.content .texts h1{
+    font-size: 60px;
+}
+.content .texts div{
+    margin-top: 65px;
+    color: var(--color-p);
+    letter-spacing: 2px;
+}
+.content .texts div button{
+    border: 0;
+    background-color: var(--color-button);
+    color: white;
+    padding: 10px 25px;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.content .image{
+    background-image: url(../images/illustration-devices.svg);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+}
